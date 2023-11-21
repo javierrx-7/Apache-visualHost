@@ -35,7 +35,8 @@ servidor_dns:
     
   - acuerdate de usar networks y nombre de la red para ponerla fija:
   - Aumque la ip sea diferente en cada contenedor el nombre deberá ser el mismo.
-    + Para el Apache:
+    
+   + Para el Apache:
 
     networks:
       xoela_subnet:
