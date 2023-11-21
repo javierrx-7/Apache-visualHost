@@ -1,0 +1,14 @@
+$TTL 38400	; 10 hours 40 minutes
+@		IN SOA	ns.fabulasoscuras.int. some.email.address. (
+				10000002   ; serial
+				10800      ; refresh (3 hours)
+				3600       ; retry (1 hour)
+				604800     ; expire (1 week)
+				38400      ; minimum (10 hours 40 minutes)
+				)
+@		IN NS	ns.fabulasoscuras.int.
+ns		IN A		162.22.5.1
+test	IN A		162.22.5.4
+xoel    IN A        162.22.5.9
+www	    IN CNAME	ns
+texto	IN TXT		mensaje
