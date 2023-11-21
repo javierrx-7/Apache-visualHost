@@ -118,10 +118,11 @@ servidor_dns:
     # Controls who can get stuff from this server.
     #
     Require all granted
-    
+
 </Directory>
 
 ## Configura dos virtual-host separados para cada dominio en el mismo puerto (80)
 
-ServerName 162.22.5.1:80
-ServerAdmin jfernandezdavila@danielcastelao.org
+  ServerName 162.22.5.1:80
+
+  ServerAdmin jfernandezdavila@danielcastelao.org
