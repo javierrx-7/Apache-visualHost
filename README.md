@@ -94,7 +94,7 @@ servidor_dns:
 
 <Directory "/usr/local/apache2/htdocs">
     
-  - # Possible values for the Options directive are "None", "All",
+    # Possible values for the Options directive are "None", "All",
     # or any combination of:
     #   Indexes Includes FollowSymLinks SymLinksifOwnerMatch ExecCGI MultiViews
     #
@@ -118,6 +118,7 @@ servidor_dns:
     # Controls who can get stuff from this server.
     #
     Require all granted
+    
 </Directory>
 
 ## Configura dos virtual-host separados para cada dominio en el mismo puerto (80)
